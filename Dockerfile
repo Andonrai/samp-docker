@@ -27,7 +27,7 @@ RUN chmod +x /start.sh && \
     ln -sf /dev/stdout server_log.txt
 
 ENV SAMP_LAN_MODE 0
-ENV SAMP_RCON_PASSWORD changeme
+ENV SAMP_RCON_PASSWORD hola102
 ENV SAMP_MAX_PLAYERS 50
 ENV SAMP_PORT 7777
 ENV SAMP_HOSTNAME "SA-MP 0.3 Server"
